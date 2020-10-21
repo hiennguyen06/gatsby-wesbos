@@ -7,8 +7,6 @@ import SEO from '../components/SEO'
 
 const PizzasPage = ({ data, pageContext }) => {
   const {pizzas: {nodes: pizzas}} = data
-  console.log(pageContext)
-
   return (
     <>
       <SEO title={pageContext.topping ? `Pizzas with ${pageContext.topping}` : `All Pizzas` }/>

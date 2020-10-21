@@ -44,7 +44,6 @@ const SlicemasterStyles = styled.div`
 const SlicemastersPage = ({ data, pageContext }) => {
   const slicemasters = data.slicemasters.nodes;
   // pageContext is all the data that is passed in from context in the gatsby node file
-  console.log(pageContext);
 
   return (
     <>

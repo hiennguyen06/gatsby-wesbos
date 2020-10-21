@@ -5,7 +5,6 @@ import LoadingGrid from '../components/LoadingGrid';
 import ItemGrid from '../components/ItemGrid';
 
 const CurrentlySlicing = ({ slicemasters }) => {
-  console.log(slicemasters)
   return (
     <div>
       <h2 className="center">
@@ -23,7 +22,6 @@ const CurrentlySlicing = ({ slicemasters }) => {
 }
 
 const HotSlices = ({ hotSlices }) => {
-  console.log(hotSlices)
   return (
     <div>
       <h2 className="center">

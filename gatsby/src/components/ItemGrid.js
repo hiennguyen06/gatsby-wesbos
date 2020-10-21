@@ -6,7 +6,7 @@ const ItemGrid = ({ items }) => {
         <ItemsGrid>
             {items.map((item) => {
                 return (
-                    <ItemStyles>
+                    <ItemStyles key={item._id}>
                         <p>
                             <span className="mark">
                                 {item.name}
